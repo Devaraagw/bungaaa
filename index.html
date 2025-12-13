@@ -25,9 +25,16 @@
     </div>
     <div class="button">
         <button>
-            <a href="Home.html">CEPETT PENCETT!!!</a>
+            <a href="Home.html" onclick="playNext()">CEPETT PENCETT!!!</a>
         </button>
         
     </div>
+    <script>
+function playNext() {
+  // tandai bahwa user sudah klik
+  sessionStorage.setItem("playMusic", "true");
+}
+</script>
+
 </body>
 </html>
